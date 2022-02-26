@@ -6,10 +6,26 @@ function menu() {
 	cardContainer.classList.add('card-container');
 
 	const items = [
-		createItem('Cup', '2$', '../../dist/assets/images/cup.jpg'),
-		createItem('Cone', '1.5$', '../../dist/assets/images/cone.jpg'),
-		createItem('Bow', '3$', '../../dist/assets/images/bow.jpg'),
-		createItem('Special', '3.5$', '../../dist/assets/images/special.jpg'),
+		createItem(
+			'Cup',
+			'2$',
+			'https://images.unsplash.com/photo-1557142046-c704a3adf364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
+		),
+		createItem(
+			'Cone',
+			'1.5$',
+			'https://images.unsplash.com/photo-1549395156-e0c1fe6fc7a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
+		),
+		createItem(
+			'Bow',
+			'3$',
+			'https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=408&q=80'
+		),
+		createItem(
+			'Special',
+			'3.5$',
+			'https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80'
+		),
 	];
 
 	items.forEach((item) => {
