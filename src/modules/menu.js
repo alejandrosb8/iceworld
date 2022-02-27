@@ -48,6 +48,9 @@ function createItem(name, price, src) {
 	item.classList.add('menu__card');
 	bar.classList.add('card__bar');
 
+	itemName.classList.add('itemName');
+	itemPrice.classList.add('itemPrice');
+
 	itemImage.src = src;
 
 	itemName.innerText = name;
